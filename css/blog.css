@@ -1,0 +1,57 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lato:wght@100;300;400;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+/* Fonts to use
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Rajdhani', sans-serif;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar Styling */
+.navbar {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+/* Button styling */
+.btn {
+    color: #FFFFFF;
+    background: #EAA225;
+    height: 50px;
+    width: 100px;
+    transition: 0.5s ease-in-out;
+    border-radius: 80px;
+    border: 2px solid white;
+    margin-left: 15px;
+}
+
+.btn:hover {
+    color: #EAA225;
+    background: #FFFFFF;
+    height: 50px;
+    width: 100px;
+    transition: 0.5s ease-in-out;
+    border-radius: 80px;
+    border: 2px solid #EAA225;
+}
+
+/* Nav - item styling */
+.nav-item {
+    margin: 0px 15px;
+}
+
+/* Nav link styling */
+.nav-link {
+    color: #37A447;
+    transition: 0.5s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #EAA225;
+    transition: 0.5s ease-in-out;
+}
