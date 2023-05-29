@@ -107,6 +107,17 @@ header {
     color: #787878;
 }
 
+.form-section textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #787878;
+    height: 40px;
+    background-color: #e2e2e2;
+    font-family: Rajdhani, sans-serif;
+    color: #787878;
+    font-weight: 600;
+}
+
 .a-form {
     padding: 40px;
     background: #e2e2e2;
