@@ -175,6 +175,40 @@ header {
     font-size: 25px;
 }
 
+/* Review Section Styling */
+.review-section {
+    background: rgba(238, 238, 238, 0.36);
+    padding: 50px 0;
+}
+
+.review-section h2 {
+    color: #37A447;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.carousel-item {
+    background-color: #a1dabf;
+    width: 100%;
+    display: none;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.carousel-item h5 {
+    margin: 20px 0;
+    color: #ffbb00;
+    text-align: center;
+}
+
+.carousel-item p {
+    margin: 20px 0 40px;
+    text-align: center;
+}
+
 /* footer styling */
 footer {
     background-image: linear-gradient(#0CC0DF, #FFDE59);
