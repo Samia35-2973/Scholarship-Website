@@ -139,7 +139,7 @@ header {
     color: #787878;
     font-weight: 600;
     width: auto;
-    height: auto;
+    /* height: auto; */
 }
 
 /* .item1 {
