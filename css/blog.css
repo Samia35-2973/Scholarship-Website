@@ -104,6 +104,42 @@ nav .btn:hover {
     margin-bottom: 10px;
 }
 
+/* Section styling */
+section {
+    padding: 50px 0;
+}
+
+/* Blog Styling */
+.card-body {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+}
+
+.card-title {
+    color: #359E47;
+}
+
+.card-subtitle {
+    color: #FF5C00;
+}
+
+.card-link {
+    width: 130px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+/* This will be used when JS */
+/* .card-text {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+} */
+
+.card-link:hover {
+    width: 130px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
 /* footer styling */
 footer {
     background-image: linear-gradient(#0CC0DF, #FFDE59);
