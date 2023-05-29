@@ -1,0 +1,260 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lato:wght@100;300;400;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+/* Fonts to use
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Rajdhani', sans-serif;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header styling */
+header {
+    background-image: url('../images/blogs/banner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Navbar Styling */
+.navbar {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+/* Button styling */
+.btn {
+    color: #FFFFFF;
+    background: #EAA225;
+    width: 100%;
+    transition: 0.5s ease-in-out;
+    border-radius: 80px;
+    border: 2px solid white;
+    font-weight: 600;
+}
+
+.btn:hover {
+    color: #EAA225;
+    background: #FFFFFF;
+    width: 100%;
+    transition: 0.5s ease-in-out;
+    border-radius: 80px;
+    border: 2px solid #EAA225;
+}
+
+/* Nav - item styling */
+.nav-item {
+    margin: 0px 15px;
+}
+
+/* Nav link styling */
+.nav-link {
+    color: #37A447;
+    transition: 0.5s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #EAA225;
+    transition: 0.5s ease-in-out;
+}
+
+.cus-btn {
+    width: 130px;
+}
+
+.cus-btn:hover {
+    width: 130px;
+}
+
+.modal {
+    z-index: 9999;
+}
+
+/* Top-body Styling */
+.top-body {
+    font-family: 'Rajdhani', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 370px;
+    margin-top: 150px;
+    margin-bottom: 51px;
+}
+
+.top-body h1 {
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.top-body p {
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+/* about section design */
+.analysis-section {
+    background: rgba(238, 238, 238, 0.36);
+    padding: 50px 0;
+}
+
+.analysis-section .card {
+    text-align: end;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+    width: 70%;
+    margin: 20px 0 20px;
+    background-image: linear-gradient(#0CC0DF, #FFDE59);
+    color: #ffffff;
+}
+
+/* Latest Scholarship Section styling */
+.latest-section {
+    padding: 50px 0;
+}
+
+.latest-section h2 {
+    color: #FF5C00;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.latest-section .card-title {
+    color: #359E47;
+    border-bottom: 1px solid #ebebeb;
+    text-align: center;
+}
+
+.latest-section .card-subtitle {
+    margin-top: 10px;
+    color: rgba(225, 95, 0, 0.9);
+    text-align: center;
+}
+
+.latest-section ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -32px;
+}
+
+.latest-section li {
+    background-color: #cccaca;
+    color: black;
+    width: 50%;
+    border: 1px solid white;
+    padding-top: 10px;
+    margin-bottom: 8px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.latest-section .button-group {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.latest-section .button-group a {
+    color: black;
+    font-size: 25px;
+}
+
+/* Review Section Styling */
+.review-section {
+    background: rgba(238, 238, 238, 0.36);
+    padding: 50px 0;
+}
+
+.review-section h2 {
+    color: #37A447;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.carousel-item {
+    background-color: #a1dabf;
+    width: 100%;
+    display: none;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.carousel-item h5 {
+    margin: 20px 0;
+    color: #ffbb00;
+    text-align: center;
+}
+
+.carousel-item p {
+    margin: 20px 0 40px;
+    text-align: center;
+}
+
+/* footer styling */
+footer {
+    background-image: linear-gradient(#0CC0DF, #FFDE59);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px 0px 50px;
+}
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-section h6 {
+    color: #ff7b00;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding-left: 0px;
+    text-align: center;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.667;
+    color: #FFFFFF;
+}
+
+.textcopy {
+    text-align: center;
+}
+
+.footer-2 p {
+    color: #797979;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.667;
+}
