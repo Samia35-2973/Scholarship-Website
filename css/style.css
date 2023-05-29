@@ -122,6 +122,59 @@ header {
     font-size: 12px;
 }
 
+/* Latest Scholarship Section styling */
+.latest-section {
+    padding: 50px 0;
+}
+
+.latest-section h2 {
+    color: #FF5C00;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.latest-section .card-title {
+    color: #359E47;
+    border-bottom: 1px solid #ebebeb;
+    text-align: center;
+}
+
+.latest-section .card-subtitle {
+    margin-top: 10px;
+    color: rgba(225, 95, 0, 0.9);
+    text-align: center;
+}
+
+.latest-section ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -32px;
+}
+
+.latest-section li {
+    background-color: #cccaca;
+    color: black;
+    width: 50%;
+    border: 1px solid white;
+    padding-top: 10px;
+    margin-bottom: 8px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.latest-section .button-group {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.latest-section .button-group a {
+    color: black;
+    font-size: 25px;
+}
+
 /* footer styling */
 footer {
     background-image: linear-gradient(#0CC0DF, #FFDE59);
