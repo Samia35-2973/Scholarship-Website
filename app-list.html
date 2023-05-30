@@ -7,7 +7,7 @@
     <title>Scholars Journey - Blog</title>
     <!-- Linking CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/form_style.css">
+    <link rel="stylesheet" href="css/app-list.css">
     <script src="https://kit.fontawesome.com/01b8ea8174.js" crossorigin="anonymous"></script>
 </head>
 
@@ -62,116 +62,16 @@
             <div class="container form-section">
                 <div class="row g-5">
                     <div class="col-md-12">
-                        <h6>Scholarship Officer
+                        <h6>Applicant's List
                         </h6>
                     </div>
                 </div>
                 <div class="row g-5">
                     <div class="col-md-12">
                         <form action="" class="a-form">
-                            <p>Personal Information</p>
-                            <div class="row g-5">
-                                <div class="col-md-6">
-                                    <input type="text" name="first-name" placeholder="Samia" required id="firstName">
-                                </div>
-                                <div class="col-md-6">
-                                    <input type="text" name="last-name" placeholder="Tisha" required id="lastName">
-                                </div>
-                                <div class="col-md-6" style="display: flex;
-                                justify-content: space-between;">
-                                    <p class="cus-design"><label>Gender*: </label></p>
-                                    <p class="cus-design"><input type="radio" name="gender" id="user-male"
-                                            value="male"><label for="user-male">Male</label></p>
-                                    <p class="cus-design"><input type="radio" name="gender" id="user-female"
-                                            value="female" style="color:black;"><label for="user-female">Female</label>
-                                    </p>
-                                    <p class="cus-design"><input type="radio" name="gender" id="user-others"
-                                            value="others"><label for="user-others">Others</label></p>
-                                </div>
-                                <div class="col-md-6" style="display: flex;
-                                justify-content: flex-start;">
-                                    <p>Birthday*: <input type="date" id="birthday" name="birth-day"></p>
-                                </div>
-                                <div class="col-md-6">
-                                    <input type="email" name="mail" placeholder="samiatisha35@gmail.com*" required
-                                        id="e-mail">
-                                </div>
-                                <div class="col-md-6">
-                                    <input type="email" name="c-mail" placeholder="Confirm your Email*" required
-                                        id="c-e-mail">
-                                </div>
-                            </div>
-                            <br>
-                            <p>Professional Information</p>
-                            <div class="row g-5">
-                                <div class="col-md-6">
-                                    <input type="url" name="site-url" placeholder="Website.com" required id="website">
-                                </div>
-                                <div class="col-md-6">
-                                    <input type="text" name="so-designation" placeholder="Professor" required
-                                        id="designation">
-                                </div>
-                                <div class="col-md-6">
-                                    <input type="text" name="institute" placeholder="Anywhere" required
-                                        id="user-institute">
-                                </div>
-                                <div class="col-md-6">
-                                    <input type="text" name="institute-add" placeholder="anywhere right now" required
-                                        id="user-institute-add">
-                                </div>
-                                <div class="col-md-6">
-                                    <input type="tel" name="phone" placeholder="+88010202022" required id="user-phone">
-                                </div>
-                                <div class="col-md-6">
-                                    <input type="text" name="short-bio" placeholder="I am a student" required
-                                        id="user-short-bio">
-                                </div>
-                            </div>
-                            <br>
-                            <p>Location</p>
-                            <div class="row g-5">
-                                <div class="col-md-6">
-                                    <input type="text" name="country" placeholder="Bangladesh" required
-                                        id="user-country">
-                                </div>
-                                <div class="col-md-6">
-                                    <input type="text" name="city" placeholder="Dhaka" required id="user-city">
-                                </div>
-                                <div class="col-md-6">
-                                    <input type="text" name="address" placeholder="Dania" required id="user-address">
-                                </div>
-                                <div class="col-md-6">
-                                    <input type="text" name="zipcode" placeholder="1232" required id="user-zipcode">
-                                </div>
-                            </div>
-                            <br>
-                            <p>Secure Account</p>
-                            <div class="row g-5">
-                                <div class="col-md-6">
-                                    <input type="password" name="pass" placeholder="Password*" required id="user-pass">
-                                </div>
-                                <div class="col-md-6">
-                                    <input type="c-password" name="cpass" placeholder="Confirm Password*" required
-                                        id="user-cpass">
-                                </div>
-                            </div>
-                            <br>
-                            <p>Notification Preference</p>
-                            <div class="row g-5">
-                                <div class="col-md-6">
-                                    <p><input type="checkbox" name="not-pre-1" id="user-not-pre-1" value="agree">
-                                        Receive Mail on Latest Scholarships</p>
-                                </div>
-                                <div class="col-md-6">
-                                    <p><input type="checkbox" name="not-pre-2" id="user-not-pre-2" value="agree">
-                                        Get notified for scholarships</p>
-                                </div>
-                            </div>
-                            <p><input type="checkbox" name="terms" id="user-terms" value="agree"> I agree with the
-                                terms and conditions as a Scholarship Officer. I have read the
-                                terms and condition statement.</p>
+                            <p>Currently There are no applicants</p>
                             <div class="d-flex flex-row justify-content-center">
-                                <button data-bs-toggle="modal" data-bs-target="#updateModal" class="btn cus-btn"
+                                <button data-bs-toggle="modal" data-bs-target="#listupdateModal" class="btn cus-btn"
                                     type="submit">UPDATE</button>
                             </div>
                         </form>
@@ -259,11 +159,11 @@
             </div>
         </div>
     </div>
-    <div class="modal" id="updateModal" tabindex="-1" aria-labelledby="updateModalLabel" aria-hidden="true">
+    <div class="modal" id="listupdateModal" tabindex="-1" aria-labelledby="listupdateModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="updateModalLabel">Your Profile is Updated</h5>
+                    <h5 class="modal-title" id="listupdateModalLabel">List is Updated</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-footer">

@@ -26,7 +26,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="so-dashboard.html"
+                            <a class="nav-link active" aria-current="page" href="student.html"
                                 style="color: #EAA225;">HOME</a>
                         </li>
                         <li class="nav-item">
@@ -48,10 +48,10 @@
                                     class="fa-solid fa-bell"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Hi, Officer!</a>
+                            <a class="nav-link" href="#">Hi, Student!</a>
                         </li>
                     </ul>
-                    <a class="btn btn-outline-success shadow cus-btn" href="so-profile.html" role="button"
+                    <a class="btn btn-outline-success shadow cus-btn" href="st-profile.html" role="button"
                         style="width: 41px"><i class="fa-solid fa-user"></i></a>
                 </div>
             </div>
@@ -62,7 +62,7 @@
             <div class="container form-section">
                 <div class="row g-5">
                     <div class="col-md-12">
-                        <h6>Scholarship Officer
+                        <h6>Student Profile
                         </h6>
                     </div>
                 </div>
@@ -72,10 +72,10 @@
                             <p>Personal Information</p>
                             <div class="row g-5">
                                 <div class="col-md-6">
-                                    <input type="text" name="first-name" placeholder="Samia" required id="firstName">
+                                    <input type="text" name="first-name" placeholder="Sabbir*" required id="firstName">
                                 </div>
                                 <div class="col-md-6">
-                                    <input type="text" name="last-name" placeholder="Tisha" required id="lastName">
+                                    <input type="text" name="last-name" placeholder="Mridha*" required id="lastName">
                                 </div>
                                 <div class="col-md-6" style="display: flex;
                                 justify-content: space-between;">
@@ -83,8 +83,7 @@
                                     <p class="cus-design"><input type="radio" name="gender" id="user-male"
                                             value="male"><label for="user-male">Male</label></p>
                                     <p class="cus-design"><input type="radio" name="gender" id="user-female"
-                                            value="female" style="color:black;"><label for="user-female">Female</label>
-                                    </p>
+                                            value="female"><label for="user-female">Female</label></p>
                                     <p class="cus-design"><input type="radio" name="gender" id="user-others"
                                             value="others"><label for="user-others">Others</label></p>
                                 </div>
@@ -93,8 +92,7 @@
                                     <p>Birthday*: <input type="date" id="birthday" name="birth-day"></p>
                                 </div>
                                 <div class="col-md-6">
-                                    <input type="email" name="mail" placeholder="samiatisha35@gmail.com*" required
-                                        id="e-mail">
+                                    <input type="email" name="mail" placeholder="sabbir@mail.com*" required id="e-mail">
                                 </div>
                                 <div class="col-md-6">
                                     <input type="email" name="c-mail" placeholder="Confirm your Email*" required
@@ -102,46 +100,46 @@
                                 </div>
                             </div>
                             <br>
-                            <p>Professional Information</p>
+                            <p>Educational Information</p>
                             <div class="row g-5">
                                 <div class="col-md-6">
-                                    <input type="url" name="site-url" placeholder="Website.com" required id="website">
+                                    <input type="text" name="degree" placeholder="Undergraduate*" required
+                                        id="user-degree">
                                 </div>
                                 <div class="col-md-6">
-                                    <input type="text" name="so-designation" placeholder="Professor" required
-                                        id="designation">
+                                    <input type="text" name="program" placeholder="SWE*" required id="user-program">
                                 </div>
                                 <div class="col-md-6">
-                                    <input type="text" name="institute" placeholder="Anywhere" required
-                                        id="user-institute">
+                                    <input type="text" name="institute" placeholder="DIU*" required id="user-institute">
+                                </div>
+                                <div class="col-md-6" style="display: flex;
+                                justify-content: flex-start;">
+                                    <p>Graduation*: <input type="date" id="graduation" name="grad-day"></p>
                                 </div>
                                 <div class="col-md-6">
-                                    <input type="text" name="institute-add" placeholder="anywhere right now" required
-                                        id="user-institute-add">
+                                    <input type="text" name="ins-country" placeholder="Bangladesh*" required
+                                        id="ins-country">
                                 </div>
                                 <div class="col-md-6">
-                                    <input type="tel" name="phone" placeholder="+88010202022" required id="user-phone">
-                                </div>
-                                <div class="col-md-6">
-                                    <input type="text" name="short-bio" placeholder="I am a student" required
-                                        id="user-short-bio">
+                                    <input type="text" name="ins-zipcode" placeholder="1232*" required id="ins-zipcode">
                                 </div>
                             </div>
                             <br>
                             <p>Location</p>
                             <div class="row g-5">
                                 <div class="col-md-6">
-                                    <input type="text" name="country" placeholder="Bangladesh" required
+                                    <input type="text" name="country" placeholder="Bangladesh*" required
                                         id="user-country">
                                 </div>
                                 <div class="col-md-6">
-                                    <input type="text" name="city" placeholder="Dhaka" required id="user-city">
+                                    <input type="text" name="city" placeholder="Dhaka*" required id="user-city">
                                 </div>
                                 <div class="col-md-6">
-                                    <input type="text" name="address" placeholder="Dania" required id="user-address">
+                                    <input type="text" name="address" placeholder="Address*" required id="user-address">
                                 </div>
                                 <div class="col-md-6">
-                                    <input type="text" name="zipcode" placeholder="1232" required id="user-zipcode">
+                                    <input type="text" name="zipcode" placeholder="Zip Code*" required
+                                        id="user-zipcode">
                                 </div>
                             </div>
                             <br>
@@ -168,10 +166,10 @@
                                 </div>
                             </div>
                             <p><input type="checkbox" name="terms" id="user-terms" value="agree"> I agree with the
-                                terms and conditions as a Scholarship Officer. I have read the
+                                terms and conditions as a Student. I have read the
                                 terms and condition statement.</p>
                             <div class="d-flex flex-row justify-content-center">
-                                <button data-bs-toggle="modal" data-bs-target="#updateModal" class="btn cus-btn"
+                                <button data-bs-toggle="modal" data-bs-target="#updatestModal" class="btn cus-btn"
                                     type="submit">UPDATE</button>
                             </div>
                         </form>
@@ -259,11 +257,11 @@
             </div>
         </div>
     </div>
-    <div class="modal" id="updateModal" tabindex="-1" aria-labelledby="updateModalLabel" aria-hidden="true">
+    <div class="modal" id="updatestModal" tabindex="-1" aria-labelledby="updatestModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="updateModalLabel">Your Profile is Updated</h5>
+                    <h5 class="modal-title" id="updatestModalLabel">Your Profile is Updated</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-footer">
