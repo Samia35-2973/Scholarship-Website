@@ -1,7 +1,6 @@
 # Scholars Journey
 
 [![Views](https://hits.dwyl.com/Samia35-2973/Scholarship-Website.svg)](https://hits.dwyl.com/Samia35-2973/Scholarship-Website)
-[![GitHub clones](https://img.shields.io/github/clones/Samia35-2973/Scholarship-Website.svg)](https://github.com/Samia35-2973/Scholarship-Website)
 [![GitHub forks](https://img.shields.io/github/forks/Samia35-2973/Scholarship-Website.svg?style=social&label=Fork&maxAge=2592000)](https://github.com/Samia35-2973/Scholarship-Website/network/members)
 [![GitHub stars](https://img.shields.io/github/stars/Samia35-2973/Scholarship-Website.svg?style=social&label=Star&maxAge=2592000)](https://github.com/Samia35-2973/Scholarship-Website/stargazers)
 
