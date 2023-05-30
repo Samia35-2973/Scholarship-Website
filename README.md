@@ -23,6 +23,8 @@ Welcome to Scholars Journey, a web development project aimed at simplifying the 
 
 The Scholars Journey project aims to simplify the scholarship search and application process for Bangladeshi students. By creating an account and filling out their profile information, students can receive personalized scholarship recommendations that align with their educational background, interests, and career goals. The platform also provides tools for scholarship application management, social networking, collaboration, and notifications to keep students updated on new scholarships and upcoming deadlines.
 
+**Note that it is currently on development phase**
+
 ## Features
 
 The Scholars Journey project includes the following features:
@@ -70,8 +72,8 @@ The Scholars Journey project focuses on providing scholarship-related services f
 
 To install Scholars Journey, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/Samia35-2973/scholars-journey.git`
-2. Navigate to the project directory: `cd scholars-journey`
+1. Clone the repository: `git clone https://github.com/Samia35-2973/Scholarship-Website.git`
+2. Navigate to the project directory: `cd Scholarship-Website`
 3. Install the dependencies: `npm install`
 4. Set up the environment variables.
 5. Start the development server: `npm start`
