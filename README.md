@@ -1,20 +1,9 @@
 # Scholars Journey
 
-<a href="https://github.com/Samia35-2973/Scholarship-Website/actions">
-      <img alt="Tests Passing" src="https://github.com/Samia35-2973/Scholarship-Website/workflows/Test/badge.svg" />
-    </a>
-    <a href="https://github.com/Samia35-2973/Scholarship-Website/graphs/contributors">
-      <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/Samia35-2973/Scholarship-Website" />
-    </a>
-    <a href="https://codecov.io/gh/Samia35-2973/Scholarship-Website">
-      <img src="https://codecov.io/gh/Samia35-2973/Scholarship-Website/branch/master/graph/badge.svg" />
-    </a>
-    <a href="https://github.com/Samia35-2973/Scholarship-Website/issues">
-      <img alt="Issues" src="https://img.shields.io/github/issues/Samia35-2973/Scholarship-Website?color=0088ff" />
-    </a>
-    <a href="https://github.com/Samia35-2973/Scholarship-Website/pulls">
-      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/Samia35-2973/Scholarship-Website?color=0088ff" />
-    </a>
+[![Views](https://hits.dwyl.com/Samia35-2973/Scholarship-Website.svg)](https://hits.dwyl.com/Samia35-2973/Scholarship-Website)
+[![GitHub clones](https://img.shields.io/github/clones/Samia35-2973/Scholarship-Website.svg)](https://github.com/Samia35-2973/Scholarship-Website)
+[![GitHub forks](https://img.shields.io/github/forks/Samia35-2973/Scholarship-Website.svg?style=social&label=Fork&maxAge=2592000)](https://github.com/Samia35-2973/Scholarship-Website/network/members)
+[![GitHub stars](https://img.shields.io/github/stars/Samia35-2973/Scholarship-Website.svg?style=social&label=Star&maxAge=2592000)](https://github.com/Samia35-2973/Scholarship-Website/stargazers)
 
 Welcome to Scholars Journey, a web development project aimed at simplifying the process of finding and applying for scholarships for Bangladeshi students. This project leverages recommendation systems and personalized matching algorithms to provide accurate scholarship recommendations based on the students' profiles and interests. Additionally, it includes features for scholarship application management, collaboration, and social networking among students.
 
