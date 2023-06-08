@@ -66,66 +66,64 @@ header {
     width: 130px;
 }
 
-/* Selection column styling */
-.list-section {
+/* form column styling */
+
+.tabs {
     background: rgba(238, 238, 238, 0.36);
     padding: 50px 0;
 }
 
-.selection-form {
-    background-color: #d8d8d8;
-    padding: 40px;
-}
-
-.selection-form legend {
-    color: #37A447;
-    font-family: 'Rajdhani', sans-serif;
-    font-weight: 600;
-}
-
-.selection-form p {
-    color: #000000;
-    font-family: 'Rajdhani', sans-serif;
-    font-weight: 600;
-}
-
-.list-section h2 {
-    color: #FF5C00;
-    font-family: 'Rajdhani', sans-serif;
-    font-weight: 600;
-    text-align: center;
-}
-
-.list-section .card-title {
-    border-bottom: 1px solid #ebebeb;
-    text-align: center;
-}
-
-.list-section .card-text {
-    margin-top: 10px;
-    color: rgba(225, 95, 0, 0.9);
-    text-align: center;
-}
-
-.list-section ul {
-    list-style: none;
+.tabs ul {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: -32px;
+    justify-content: center;
 }
 
-.list-section li {
-    background-color: #cccaca;
-    color: black;
-    width: 50%;
-    border: 1px solid white;
-    padding-top: 10px;
-    margin-bottom: 8px;
-    border-radius: 10px;
+.tabs ul li {
+    list-style: none;
+    background-color: darkgrey;
     text-align: center;
+    width: 110px;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: 'Fjalla One', sans-serif;
+    border-radius: 0px;
 }
 
+.tabs .active {
+    background-image: linear-gradient(#0CC0DF, #FFDE59);
+}
+
+.form-section h6 {
+    font-size: inherit;
+    text-align: center;
+    font-family: 'Rajdhani', open sans-serif;
+    font-weight: 600;
+}
+
+.cell-value {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.form-section p {
+    text-align: start;
+    font-family: 'Rajdhani', open sans-serif;
+    font-weight: 600;
+    color: #787878;
+    margin-right: 10px;
+}
+
+.form-section h6 {
+    text-align: center;
+    font-family: 'Rajdhani', open sans-serif;
+    font-weight: 600;
+    color: #444343;
+}
+
+.a-form {
+    padding: 40px;
+    background: #e2e2e2;
+}
 
 /* footer styling */
 footer {
